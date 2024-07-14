@@ -1,7 +1,2 @@
 # dotfiles
-# dotfiles
-# dotfiles
-# dotfiles
-# dotfiles
-# dotfiles
-# dotfiles
+My dotfiles
