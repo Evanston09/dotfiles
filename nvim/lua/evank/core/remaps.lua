@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+vim.keymap.set("n", "-", "<CMD>:lua MiniFiles.open()<CR>", { desc = "Open parent directory" })
 
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])

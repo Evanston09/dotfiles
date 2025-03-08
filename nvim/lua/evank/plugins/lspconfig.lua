@@ -9,7 +9,7 @@ return {
         require("mason").setup()
         require("mason-lspconfig").setup()
 
-        local capabilities = require('blink.cmp').get_lsp_capabilities()
+        local capabilities = require('blink.cmp').get_lsp_capabilities(vim.lsp.protocol.make_client_capabilities())
         require("mason-lspconfig").setup_handlers {
             -- The first entry (without a key) will be the default handler
             -- and will be called for each installed server that doesn't have
