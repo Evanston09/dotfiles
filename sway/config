@@ -15,23 +15,26 @@ set $up k
 set $right l
 # Your preferred terminal emulator
 # Recommends: foot
-set $term wezterm
+set $term ghostty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 # Recommends: rofi-wayland
-set $rofi_cmd rofi \
-        -terminal '$term'
 # Shows a combined list of the applications with desktop files and
 # executables from PATH.
 # TODO: add window with the next release of rofi-wayland
-set $menu $rofi_cmd -show combi -combi-modes drun#run -modes combi
+
+# Needed to get flatpaks to appear
+set $menu j4-dmenu-desktop --dmenu="bemenu --ignorecase"
+
+default_border none
+default_border pixel 2
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-# Requires: desktop-backgrounds-compat, swaybg
-output * bg /usr/share/backgrounds/custom/ocean.jpg fill
+# Requires: desktop-backgrounds-compat, swaybg, jxl-pixbuf-loader
+output * bg ~/Pictures/wallpaper.png fill
 #
 # Example configuration:
 #
@@ -65,6 +68,11 @@ output * bg /usr/share/backgrounds/custom/ocean.jpg fill
 #
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
+input type:touchpad {
+    dwt enabled
+    tap enabled
+    natural_scroll enabled
+}
 
 ### Key bindings
 #
