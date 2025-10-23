@@ -74,6 +74,10 @@ input type:touchpad {
     natural_scroll enabled
 }
 
+input type:pointer {
+ pointer_accel 0.1 
+}
+
 ### Key bindings
 #
 # Basics:
@@ -189,9 +193,13 @@ input type:touchpad {
     bindsym $mod+minus scratchpad show
 
 #
-# Screenshot:
+# Evan's Keybinds:
 #
     bindsym $mod+p exec grim -g "$(slurp)" - | wl-copy
+    bindsym $mod+g exec ~/code/scripts/goon-mode
+    bindsym $mod+end exec swaylock
+    bindsym $mod+n exec ~/Videos/social_network/aura-farm.sh
+    bindsym $mod+o exec ~/code/scripts/just_another_script
 
 #
 # Resizing containers:

@@ -13,6 +13,8 @@ vim.opt.signcolumn = "yes"
 
 vim.opt.updatetime = 50
 
+vim.opt.autoread = true
+
 vim.api.nvim_create_autocmd("LspAttach", {
   callback = function()
     local opts = { buffer = bufnr, silent = true, noremap = true }
