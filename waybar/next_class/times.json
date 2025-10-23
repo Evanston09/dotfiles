@@ -1,0 +1,227 @@
+{
+  "0": [
+    {
+      "startTime": "08:30",
+      "endTime": "09:20",
+      "class": "No Class!"
+    },
+    {
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "class": "AS4051 American Studies"
+    },
+    {
+      "startTime": "10:20",
+      "endTime": "11:10",
+      "class": "CS4320 Machine Learning"
+    },
+    {
+      "startTime": "11:15",
+      "endTime": "12:05",
+      "class": "CS4270 FOOD"
+    },
+    {
+      "startTime": "12:05",
+      "endTime": "12:55",
+      "class": "LUNCH"
+    },
+    {
+      "startTime": "12:55",
+      "endTime": "13:45",
+      "class": "PH4020 Physics: Mech"
+    },
+    {
+      "startTime": "13:50",
+      "endTime": "14:40",
+      "class": "MA4110 Data Science"
+    }
+  ],
+  "1": [
+    {
+      "startTime": "08:30",
+      "endTime": "09:20",
+      "class": "CS4270 FOOD"
+    },
+    {
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "class": "PH4020 Physics: Mech"
+    },
+    {
+      "startTime": "10:20",
+      "endTime": "11:10",
+      "class": "PA1020 Fit for Life"
+    },
+    {
+      "startTime": "11:10",
+      "endTime": "11:50",
+      "class": "PA1020 Fit for Life LAB"
+    },
+    {
+      "startTime": "11:50",
+      "endTime": "12:40",
+      "class": "LUNCH"
+    },
+    {
+      "startTime": "12:40",
+      "endTime": "13:20",
+      "class": "No Class!"
+    },
+    {
+      "startTime": "13:20",
+      "endTime": "14:10",
+      "class": "No Class!"
+    },
+    {
+      "startTime": "14:15",
+      "endTime": "15:05",
+      "class": "MA4110 Data Science"
+    },
+    {
+      "startTime": "15:05",
+      "endTime": "16:00",
+      "class": "Flexible Use Time"
+    }
+  ],
+  "2": [
+    {
+      "startTime": "08:30",
+      "endTime": "09:20",
+      "class": "AS4051 American Studies"
+    },
+    {
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "class": "CS4270 FOOD"
+    },
+    {
+      "startTime": "10:20",
+      "endTime": "11:10",
+      "class": "CS4320 Machine Learning"
+    },
+    {
+      "startTime": "11:10",
+      "endTime": "11:50",
+      "class": "CS4320 Machine Learning LAB"
+    },
+    {
+      "startTime": "11:50",
+      "endTime": "12:40",
+      "class": "LUNCH"
+    },
+    {
+      "startTime": "12:40",
+      "endTime": "13:20",
+      "class": "PH4020 Physics: Mech Lab"
+    },
+    {
+      "startTime": "13:20",
+      "endTime": "14:10",
+      "class": "PH4020 Physics: Mech"
+    },
+    {
+      "startTime": "14:15",
+      "endTime": "15:05",
+      "class": "MA4110 Data Science"
+    },
+    {
+      "startTime": "15:10",
+      "endTime": "16:00",
+      "class": "No Class!"
+    }
+  ],
+  "3": [
+    {
+      "startTime": "08:30",
+      "endTime": "09:20",
+      "class": "CS4320 Machine Learning"
+    },
+    {
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "class": "RE1002 Cornerstone"
+    },
+    {
+      "startTime": "10:20",
+      "endTime": "11:10",
+      "class": "AS4051 American Studies"
+    },
+    {
+      "startTime": "11:10",
+      "endTime": "11:50",
+      "class": "AS4051 American Studies Lab"
+    },
+    {
+      "startTime": "11:50",
+      "endTime": "12:40",
+      "class": "LUNCH"
+    },
+    {
+      "startTime": "12:40",
+      "endTime": "13:20",
+      "class": "MA4110 Data Science LAB"
+    },
+    {
+      "startTime": "13:20",
+      "endTime": "14:10",
+      "class": "MA4110 Data Science"
+    },
+    {
+      "startTime": "14:15",
+      "endTime": "15:05",
+      "class": "No Class!"
+    },
+    {
+      "startTime": "15:05",
+      "endTime": "16:00",
+      "class": "Flexible Use Time"
+    }
+  ],
+  "4": [
+    {
+      "startTime": "08:30",
+      "endTime": "09:20",
+      "class": "No Class!"
+    },
+    {
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "class": "CS4320 Machine Learning"
+    },
+    {
+      "startTime": "10:20",
+      "endTime": "11:10",
+      "class": "CS4270 FOOD"
+    },
+    {
+      "startTime": "11:10",
+      "endTime": "11:50",
+      "class": "CS4270 FOOD LAB"
+    },
+    {
+      "startTime": "11:50",
+      "endTime": "12:40",
+      "class": "LUNCH"
+    },
+    {
+      "startTime": "12:40",
+      "endTime": "13:30",
+      "class": "AS4051 American Studies"
+    },
+    {
+      "startTime": "13:35",
+      "endTime": "14:25",
+      "class": "PH4020 Physics: Mech"
+    },
+    {
+      "startTime": "14:25",
+      "endTime": "15:05",
+      "class": "No Class!"
+    },
+    {
+      "startTime": "15:05",
+      "endTime": "16:00",
+      "class": "Flexible Use Time"
+    }
+  ]
+}

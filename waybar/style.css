@@ -1,0 +1,38 @@
+window#waybar {
+    background-color: transparent;
+}
+
+* {
+    color: white;
+    font-size: 12px;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+#workspaces button {
+    opacity: 0.5;
+}
+
+#workspaces button.focused {
+    opacity: 1;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#custom-next_class,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+    padding: 0 10px;
+}
