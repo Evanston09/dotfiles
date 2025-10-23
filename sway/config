@@ -29,6 +29,7 @@ set $menu j4-dmenu-desktop --dmenu="bemenu --ignorecase"
 
 default_border none
 default_border pixel 2
+smart_borders on
 
 ### Output configuration
 #
