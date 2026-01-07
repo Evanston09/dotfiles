@@ -36,3 +36,8 @@ window#waybar {
 #mpd {
     padding: 0 10px;
 }
+
+menu {
+    background-color: black;
+    color: white;
+}
