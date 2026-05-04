@@ -5,9 +5,9 @@ return {
 
   -- use a release tag to download pre-built binaries
   version = '1.*',
-  -- AND/OR build from source, requires nightly: https://rust-lang.github.io/rustup/concepts/channels.html#working-with-nightly-rust
+  -- AND/OR build from source
   -- build = 'cargo build --release',
-  -- If you use nix, you can build from source using latest nightly rust with:
+  -- If you use nix, you can build from source with:
   -- build = 'nix run .#build-plugin',
 
   ---@module 'blink.cmp'
@@ -34,7 +34,7 @@ return {
     },
 
     -- (Default) Only show the documentation popup when manually triggered
-    completion = { documentation = { auto_show = false } },
+    completion = { documentation = { auto_show = true } },
 
     -- Default list of enabled providers defined so that you can extend it
     -- elsewhere in your config, without redefining it, due to `opts_extend`
@@ -48,8 +48,7 @@ return {
     --
     -- See the fuzzy documentation for more information
     fuzzy = { implementation = "prefer_rust_with_warning" },
-
-    signature = { enabled = true },
+    signature = { enabled = true }
   },
-  opts_extend = { "sources.default" },
+  opts_extend = { "sources.default" }
 }
