@@ -15,7 +15,7 @@ set $up k
 set $right l
 # Your preferred terminal emulator
 # Recommends: foot
-set $term ghostty
+set $term kitty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -72,11 +72,8 @@ output * bg ~/Pictures/wallpaper.png fill
 input type:touchpad {
     dwt enabled
     tap enabled
+    scroll_factor 0.5
     natural_scroll enabled
-}
-
-input type:pointer {
- pointer_accel 0.1 
 }
 
 ### Key bindings
