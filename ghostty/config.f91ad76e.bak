@@ -1,0 +1,4 @@
+background-opacity = .9
+background-blur-radius = 40
+theme = Catppuccin Mocha
+font-size=12
