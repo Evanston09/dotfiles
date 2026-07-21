@@ -5,15 +5,13 @@
     "sway/workspaces",
     "sway/mode",
     "sway/scratchpad",
-    "sway/window",
-    "custom/claude-usage"
+    "sway/window"
   ],
   "modules-center": [
     "clock"
   ],
   "modules-right": [
     "idle_inhibitor",
-    "custom/next_class",
     "pulseaudio",
     "network",
     "power-profiles-daemon",
@@ -193,29 +191,5 @@
       "suspend": "systemctl suspend",
       "hibernate": "systemctl hibernate"
     }
-  },
-  "custom/next_class": {
-    "format": "{}",
-    "return-type": "json",
-    "exec": "$HOME/.config/waybar/next_class/main.py",
-    "interval": 60
-  },
-  "custom/claude-usage": {
-    "exec": "~/.local/bin/claude-usage --waybar",
-    "return-type": "json",
-    "interval": 120,
-    "format": "{}",
-    "tooltip": true,
-    "on-click": "pkill -RTMIN+8 waybar",
-    "signal": 8
-  },
-  "custom/codex-usage": {
-    "exec": "~/.local/bin/codex-usage --waybar",
-    "return-type": "json",
-    "interval": 120,
-    "format": "{}",
-    "tooltip": true,
-    "on-click": "pkill -RTMIN+9 waybar",
-    "signal": 9
   }
 }

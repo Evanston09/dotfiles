@@ -24,8 +24,7 @@ set $term ghostty +new-window
 # executables from PATH.
 # TODO: add window with the next release of rofi-wayland
 
-# Needed to get flatpaks to appear
-set $menu j4-dmenu-desktop --dmenu="bemenu --ignorecase"
+set $menu fuzzel
 
 default_border none
 default_border pixel 2
@@ -194,7 +193,6 @@ input type:touchpad {
 # Evan's Keybinds:
 #
     bindsym $mod+p exec grim -g "$(slurp)" - | wl-copy
-    bindsym $mod+g exec ~/code/scripts/goon-mode
     bindsym $mod+end exec swaylock
     bindsym $mod+o exec handy --toggle-transcription
 
