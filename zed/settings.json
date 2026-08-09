@@ -7,32 +7,27 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "ui_font_family": "JetBrainsMono Nerd Font",
-  "buffer_font_family": "JetBrainsMono Nerd Font",
-  "icon_theme": {
-    "mode": "dark",
-    "light": "Zed (Default)",
-    "dark": "Zed (Default)",
+  "vim": {
+    "toggle_relative_line_numbers": true
   },
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false,
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font Mono"
   },
   "session": {
-    "trust_all_worktrees": true,
+    "trust_all_worktrees": true
   },
   "vim_mode": true,
-  "relative_line_numbers": "enabled",
   "agent_servers": {
     "codex-acp": {
-      "type": "registry",
-    },
+      "type": "registry"
+    }
   },
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
-    "mode": "dark",
+    "mode": "system",
     "light": "One Light",
-    "dark": "GitHub Dark",
+    "dark": "Catppuccin Mocha",
   },
 }
