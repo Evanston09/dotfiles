@@ -7,9 +7,10 @@
   "hideThinkingBlock": false,
   "packages": [
     "npm:pi-web-search",
-    "npm:pi-zentui",
     "npm:@firstpick/pi-themes-bundle",
     "npm:@juicesharp/rpiv-ask-user-question",
-    "npm:@dietrichgebert/ponytail"
+    "npm:@dietrichgebert/ponytail",
+    "npm:pi-zentui",
+    "npm:@tunnckocore/pi-gpt-fast-mode"
   ]
 }
