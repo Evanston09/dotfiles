@@ -1,16 +1,19 @@
 {
-  "lastChangelogVersion": "0.81.1",
+  "lastChangelogVersion": "0.84.1",
   "theme": "catppuccin-mocha",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.6-sol",
   "defaultThinkingLevel": "medium",
-  "hideThinkingBlock": false,
+  "hideThinkingBlock": true,
   "packages": [
     "npm:pi-web-search",
     "npm:@firstpick/pi-themes-bundle",
     "npm:@juicesharp/rpiv-ask-user-question",
     "npm:@dietrichgebert/ponytail",
     "npm:pi-zentui",
-    "npm:@tunnckocore/pi-gpt-fast-mode"
+    "npm:@tunnckocore/pi-gpt-fast-mode",
+    "npm:@plannotator/pi-extension",
+    "npm:@juicesharp/rpiv-voice",
+    "npm:@narumitw/pi-btw"
   ]
 }
