@@ -13,7 +13,13 @@
     "npm:pi-zentui",
     "npm:@tunnckocore/pi-gpt-fast-mode",
     "npm:@plannotator/pi-extension",
-    "npm:@juicesharp/rpiv-voice",
-    "npm:@narumitw/pi-btw"
+    "npm:@narumitw/pi-btw",
+    "npm:pi-context-view",
+    "npm:@ff-labs/pi-fff"
+  ],
+  "enabledModels": [
+    "openai-codex/gpt-5.6-luna",
+    "openai-codex/gpt-5.6-sol",
+    "openai-codex/gpt-5.6-terra"
   ]
 }
