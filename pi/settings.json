@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.84.3",
+  "lastChangelogVersion": "0.84.4",
   "theme": "catppuccin-mocha",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.6-sol",
@@ -10,10 +10,13 @@
     "npm:@firstpick/pi-themes-bundle",
     "npm:@juicesharp/rpiv-ask-user-question",
     "npm:@tunnckocore/pi-gpt-fast-mode",
-    "npm:@plannotator/pi-extension",
     "npm:@narumitw/pi-btw",
     "npm:pi-context-view",
     "npm:@ff-labs/pi-fff",
-    "npm:@juicesharp/rpiv-voice"
+    "npm:@juicesharp/rpiv-voice",
+    {
+      "source": "npm:@plannotator/pi-extension",
+      "skills": []
+    }
   ]
 }
